@@ -304,7 +304,7 @@ function App() {
                 />
               </Route>
 
-              <Route exact path="/">
+              <Route>
                 {loggedIn ? <Redirect to="/" /> : <Redirect to="/sign-in" />}
               </Route>
             </Switch>
